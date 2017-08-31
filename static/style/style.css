@@ -1,0 +1,1395 @@
+.base {
+  height: 85px;
+  background-color: #ffffff !important;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+      margin-bottom: 10px;
+}
+.content-body{
+      padding-bottom: 85px;
+    background-image: linear-gradient(to bottom, #ffffff, #f4f8f9);
+}
+a.navbar-brand.login-logo {
+    padding: 0;
+    vertical-align: middle;
+    padding-top: 26px;
+    padding-left: 21px;
+    padding-bottom: 28px;
+}
+
+.login-form {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 45px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.08);
+        padding-bottom: 10px;
+        font-family: muli;
+}
+span.candidate-image img {
+    border-radius: 50%;
+    /* padding-top: 8px; */
+}
+span.candidate-name {
+    font-family: Muli;
+    font-size: 20px;
+    color: #146c78;
+}
+span.candidate-skills {
+    font-size: 20px;
+    color: #146c78;
+}
+span.candidate-name-lis {
+    font-family: Muli;
+    font-size: 15px;
+    color: #146c78;
+}
+span.candidate-skills-list {
+    font-family: Muli;
+    font-size: 15px;
+    color: #146c78;
+}
+.list-skills-candidate {
+    padding-top: 12px;
+    text-align: center;
+}
+.col-md-12.list-details {
+     border: solid 1px #e7ecf1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+label.form-label {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666666;
+    font-family: 'Muli';
+    font-weight: 200;
+}
+
+p.form-logo {
+    text-align: center;
+    padding-bottom: 33px;
+}
+input#email {
+    height: 48px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+}
+input#fullname {
+    height: 48px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+}
+input#username {
+    height: 48px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+}
+
+input#password {
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    height: 48px;
+}
+
+input#phone {
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #dddddd;
+    height: 48px;
+}
+
+p.forgot-password {
+        text-align: right;
+    font-family: Muli;
+    font-size: 13px;
+    color: #666666;
+    width: 50%;
+    float: left;
+}
+
+button.btn.login-button {
+    font-family: Muli;
+    font-size: 16px;
+    width: 100%;
+    height: 48px;
+    color: #fff;
+    background: #146c78;
+}
+
+.form-actions {
+    padding-bottom: 20px;
+}
+p.term-login {
+    opacity: 0.5;
+    font-family: Muli;
+    font-size: 14px;
+    line-height: 1.57;
+    text-align: center;
+    color: #666666;
+}
+.help-block {
+    color: #67a0a8 !important;
+    font-weight: 400;
+}
+
+.sign-up{
+    margin-bottom: 2%;
+}
+nav.navbar.navbar-inverse.menu-bar {
+    border-radius: 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 15px;
+    height: 100px;
+    z-index: 99;
+}
+.menu-img{
+        height: 48px;
+    width: 48px;
+}
+.menu-block{
+    text-align: center;
+}
+a.menu-title {
+    padding: 0 !important;
+    color: #146c78 !important;
+    font-size: 16px;
+    font-family: Muli;
+    font-weight: 400;
+}
+li.menu-block {
+    padding-right: 25px;
+}
+.user{
+    padding-top: 20px;
+    font-family: Muli;
+    font-size: 19px;
+    color: #146c78;
+    padding-left: 11px;
+}
+button#dropdownMenu2 {
+    background: none;
+}
+
+button#dropdownMenu2 img {
+    border-radius: 50%;
+}
+
+span.username {
+    padding-left: 15px;
+}
+p.user-details {
+    border-left: 2px solid #146c78;
+}
+
+a.navbar-brand.main-login-logo {
+    padding: 23px 15px;
+}
+span.menu-icon img {
+    padding: 6px;
+}
+.active img {
+    background: rgba(223, 245, 242, 0.67);
+    padding: 6px;
+    /* border-radius: 71%; */
+    padding: 6px;
+}
+.navbar-inverse .navbar-nav>.active>a {
+    background: none !important;
+}
+.tags {
+   margin-bottom: 5px;
+}
+
+.tags .tag {
+   display: inline-block;
+   margin-right: 5px;
+   font-size: 13px;
+   margin-right: 18px;
+}
+  .tag.label.label-filter {
+    margin-bottom: 12px;
+}
+.tag .close {
+   font-size: 14px;
+   margin-left: 5px;
+}
+.dropdown-menu.user-profile {
+    background-color: #ffffff;
+    box-shadow: 0 1px 25px 0 rgba(0, 0, 0, 0.08);
+    border: 0;
+    font-family: muli;
+    padding: 15px;
+    color: #146c78;
+        width: 180px;
+}
+p.dropdown-item.company-name {
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding-bottom: 10px;
+}
+span.all-copmany.company-all {
+    font-size: 12px;
+}
+.pagination.ng-isolate-scope {
+    width: 100%;
+    text-align: right;
+}
+p.dropdown-item.logout {
+    padding-top: 10px;
+    margin: 0;
+        cursor: pointer;
+}
+p.dropdown-item.company-profile {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding-bottom: 10px;
+}
+            .pagination ul>li {
+    display: inline;
+}
+.pagination ul {
+    display: inline-block;
+    margin-left: 0;
+}
+.pagination ul>.disabled>a {
+    color: #d4d4d4;
+    background-color: transparent;
+    cursor: default;
+}
+.pagination ul>.disabled>a:hover {
+    text-decoration: none;
+}
+.pagination ul>li>a, .pagination ul>li>span {
+    float: left;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4;
+    font-family: muli;
+}
+li a {
+    color: #146c78;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a.menu-title {
+    margin-top: 5px;
+}
+.col-md-12.search-filter {
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 22px;
+    padding: 24px;
+}
+
+.col-md-12.search-filter .col-md-3 .form-group {
+    margin-bottom: 0;
+    border-right: 3px solid #146c78;
+}
+
+.select-property {
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 17px !important;
+    font-family: muli;
+    padding: 0 !important;
+    color: #146c78 !important;
+    width: 80% !important;
+}
+
+.col-md-12.search-filter .col-md-6 .form-group {
+    margin-bottom: 0 !important;
+}
+.col-md-12.list-title {
+    background-color: #fff;
+    font-family: muli;
+    padding-top: 17px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 0;
+    }
+
+.job_rows{
+       height: 100px;
+    min-height: 100px;
+}
+    #mydiv {
+    position:fixed;
+    top:0;
+
+        bottom: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:1000;
+    background-color:grey;
+    opacity: .8;
+
+ }
+
+.ajax-loader {
+    position: absolute;
+    left: 45%;
+    top: 44%;
+    /* margin-left: -32px; */
+    /* margin-top: -32px; */
+    /* display: block; */
+    width: 10%;
+}
+.panel-body {
+    clear: both;
+    padding: 0 !important;
+}
+.col-md-12.hr-interview {
+    background: #fff;
+}
+
+    .icon-act {
+      display: table-cell;
+    vertical-align: middle;
+    height: 101px;
+    min-height: 138px;
+    text-align: center;
+}
+.col-md-12.content-body {
+    padding: 0;
+}
+.list-skills {
+    text-align: center;
+}
+.input-value {
+    border: none !important;
+    box-shadow: none !important;
+    font-family: muli;
+    font-size: 20px !important;
+    color: #146c78 !important;
+}
+span.candidate-skills-fav {
+    padding-right: 25px;
+}
+span.candidate-skills-text {
+    padding-right: 25px;
+}
+.list-actions-candidate {
+    text-align: center;
+    padding-top: 10px;
+}
+.form-group.filter-button {
+    border: none !important;
+}
+button.btn.btn-default.filter-btn {
+    border: none;
+    box-shadow: none;
+    background: none;
+    border-radius: 4px;
+    border: solid 1px #e1e8ee;
+    font-family: muli;
+    color: #146c78;
+        font-size: 18px;
+    font-weight: 600;
+        width: 100%;
+}
+.label-filter {
+    /* background-color: #5cb85c; */
+    border-radius: 13px;
+    background-color: #dff5f2;
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.08);
+    padding: 10px !important;
+    /* font-size: 18px; */
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height: 0.78 !important;
+    text-align: center !important;
+    color: #146c78 !important;
+}
+.ui-menu-item {
+    font-size: 8px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: none;
+    font-family: Muli;
+    font-size: 16px;
+    padding: 10px !important;
+}
+.ui-menu-item:hover{
+    background-color: #dff5f2;
+
+font-weight: bold;
+  font-style: italic;
+}
+.ui-autocomplete {
+    background: #4a4a4a;
+    border-radius: 0px;
+}
+.ui-autocomplete.source:hover {
+    background: #454545;
+}
+
+.ui-menu .ui-menu-item a{
+font-size:16px;
+color: #146c78;
+background: none;
+border: none;
+margin-top:10px;
+margin-bottom:10px;
+}
+.ui-menu .ui-menu-item a:hover{
+background-color: #dff5f2;
+font-family: muli;
+font-style: italic;
+font-weight: bold;
+  font-style: italic;
+}
+button#dropdownMenu2:active {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+tag-manager.ng-isolate-scope .input-group {
+    display: block;
+}
+.col-md-9.tags-block .form-group {
+    margin-bottom: 0;
+}
+button.btn.btn-default.filter-btn {
+    width: 30%;
+    display: inline;
+}
+input.form-control.input-value.search-value {
+    width: 68%;
+    display: inline;
+        margin-right: 15px;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #146c78 !important;
+}
+
+div#myNavbar {
+    border: none;
+}
+/*span.icon-bar {
+    background-color: #146c78 !important;
+}*/
+span.icon-bar:hover {
+    background-color: #fff !important;
+}
+
+.list_box{
+  width: 99%;
+}
+
+.col-md-12.list-cands {
+    padding: 0;
+    padding-bottom: 20px;
+}
+.col-md-6.cv-location p {
+    margin-bottom: 5px;
+}
+.cand-img img {
+    height: 70px !important;
+    border-radius: 50%;
+}
+.col-md-9.professional-details {
+    font-family: muli;
+    font-size: 17px;
+    color: #146c78;
+    border-right: 2px solid #ddd;
+        min-height: 70px;
+}
+.col-md-9.left-side {
+    border-right: 2px solid #ddd;
+    padding-left: 0;
+}
+.col-md-6.cv-location {
+    padding-left: 0;
+          padding-top: 0;
+}
+.col-md-9.professional-details p {
+    margin-bottom: 0;
+}
+span.curriculum-vitae img{
+    padding-right: 5px;
+}
+
+p.addr img {
+    padding-right: 5px;
+}
+span.cv {
+    font-size: 17px;
+    font-family: muli;
+        color: #146c78;
+        padding-right: 10px;
+}
+span.address {
+    color: #146c78;
+    font-size: 16px;
+}
+p.actions {
+    padding-top: 13%;
+}
+span.single-action {
+    padding-left: 25px;
+}
+.col-md-12.skills {
+    padding-left: 124px;
+        padding-top: 20px;
+    padding-bottom: 10px;
+}
+span.skill-left {
+    background-color: #ccf9ff;
+    padding: 8px;
+    border-radius: 10px 0 0 10px;
+}
+span.skill-left {
+       background-color: #ccf9ff;
+    padding: 8px;
+    border-radius: 18px 0 0 18px;
+    /* padding-right: 0; */
+    /* overflow: hidden; */
+    color: #146c78;
+    font-family: muli;
+    font-weight: 400;
+}
+
+span.skill-right {
+        background-color: #146c78;
+    padding: 8px;
+    padding-right: 16px;
+    color: #fff;
+    font-family: muli;
+    overflow: hidden;
+    /* padding-left: 0; */
+    border-radius: 0 18px 18px 0;
+    margin-left: -4px;
+}
+span.all-skill {
+    padding-right: 22px;
+    display: inline-block;
+    padding-bottom: 22px;
+}
+.col-md-3.right-side {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 11px;
+    cursor: pointer;
+}
+p.cand-name {
+    cursor: pointer;
+}
+.star-icon {
+    color: #ddd;
+    font-size: 2em;
+    position: relative;
+}
+.star-icon.full:before {
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
+    color: #FDE16D;
+    content: '\2605'; /* Full star in UTF-8 */
+    position: absolute;
+    left: 0;
+}
+.star-icon.half:before {
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
+    color: #FDE16D;
+    content: '\2605'; /* Full star in UTF-8 */
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+.personal {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+        padding-top: 9px;
+}
+
+.card-profile-img .personal-img {
+    width: 75%;
+    border-radius: 50%;
+    padding-bottom: 11px;
+}
+.card-personal-title {
+    font-family: muli;
+    color: #146c78;
+    font-weight: 600;
+    font-size: 24px;
+}
+.card-personal-info {
+    color: #146c78;
+    font-family: muli;
+}
+.card-personal-contact {
+      border-left: 1px solid #ddd;
+    margin-top: 21px;
+    font-family: muli;
+    color: #146c78;
+    padding: 11px 0px;
+}
+p.card-personal-email img {
+    padding-right: 10px;
+}
+p.card-personal-phone img {
+    padding-right: 10px;
+}
+p.card-personal-skype img {
+    padding-right: 10px;
+}
+p.card-personal-phone {
+    padding-bottom: 10px;
+}
+p.card-personal-email {
+    padding-bottom: 10px;
+}
+.educational {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 29px;
+    color: #146c78;
+    font-family: muli;
+    padding-top: 7px;
+        padding-bottom: 15px;
+}
+p.edu-title {
+    font-size: 25px;
+    font-weight: 600;
+        padding-bottom: 15px;
+}
+.col-md-1.college-icon {
+    padding: 0;
+    width: 4%;
+}
+p.college-name {
+    margin-bottom: 5px !important;
+    font-weight: 600;
+}
+p.college-degree {
+    margin-bottom: 5px !important;
+}
+.col-md-2.educational-icon {
+    padding-top: 7px;
+    text-align: right;
+}
+.col-md-8.exp-detail {
+    border-left: 1px solid #ddd;
+    padding-top: 8px;
+}
+
+span.skill-center {
+    font-family: Muli;
+    background-color: #54aab6;
+    padding: 8px;
+    margin-left: -4px;
+}
+.col-md-12.educational.featured-skill {
+    padding-bottom: 28px;
+}
+
+span.resume-name {
+    padding-left: 16px;
+    font-family: muli;
+    padding-right: 12px;
+    font-size: 18px;
+}
+.col-md-12.project-details {
+    padding: 0;
+    padding-top: 29px;
+
+    color: #146c78;
+    font-family: muli;
+
+}
+.panel-project .panel-heading.collapsed {
+    background: none;
+    border: none;
+    /* font-size: 18px; */
+    /* font-family: muli; */
+}
+
+h3.panel-title {
+    font-size: 25px;
+    color: #146c78;
+    font-weight: 600;
+    padding-left: 10px;
+        width: 50%;
+    float: left;
+}
+.panel.panel-default.panel-project {
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+.panel.panel-default.panel-project .panel-heading {
+    background: none;
+    border: 0;
+        padding-bottom: 55px;
+}
+span.proj-icon {
+    width: 50%;
+    text-align: right;
+    float: left;
+    padding-right: 11px;
+}
+.col-md-6.project-title {
+    padding: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.col-md-6.project-duration {
+    padding: 0;
+}
+p.proj-dur {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    /* padding: 0; */
+}
+.col-md-12.project-one {
+    padding-bottom: 15px;
+}
+p.project-description {
+    color: #146c78;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.col-md-12.project-three {
+    padding-bottom: 20px;
+}
+.col-md-12.project-four {
+    padding-bottom: 20px;
+}
+.col-md-12.project-five {
+    padding-bottom: 20px;
+}
+.col-md-12.project-six {
+    padding-bottom: 20px;
+}
+
+/* star rating */
+span.stars, span.stars span {
+    display: inline-block;
+   /* Download the star image here: http://stackoverflow.com/questions/1987524/turn-a-number-into-star-rating-display-using-jquery-and-css */
+    background: url('../images/star.png') 0 -16px repeat-x;
+    width: 80px;
+    height: 16px;
+}
+
+span.stars span {
+    background-position: 0 0;
+}
+
+.alignright {
+  float:right;
+}
+span.doRegister {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.edu-details {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.edu-details:last-child {
+    border-bottom: none;
+    margin: 0;
+}
+.college-detail {
+    padding-left: 25px;
+}
+.exp-details {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.exp-details:last-child {
+    border: none;
+    margin: 0;
+}
+span.single-action.fav {
+    color: #146c78;
+}
+
+.filter-icon{
+    padding-right: 102px;
+}
+
+.col_course{
+        margin: 0px;
+    /* padding: 0px; */
+    text-align: center;
+    font-size: 22px;
+    vertical-align: middle;
+    padding-top: 15px;
+    color: #146c78;
+    font-weight: 400;
+}
+
+.btn_view{
+        background-color: #146c78 !important;
+    color: #fff !important;
+}
+
+.col_view{
+        align-items: center;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.col_course_tests{
+    padding-top: 0px;
+          margin: 0px;
+    /* padding: 0px; */
+    text-align: center;
+    font-size: 22px;
+    vertical-align: middle;
+    color: #146c78;
+    font-weight: 400;
+}
+
+.test_total{
+    text-align: center;
+    line-height: 30px;
+}
+
+.test_heading{
+    font-size: 20px;
+}
+.test_number{
+        font-size: 25px;
+    color: #6d6d6d;
+}
+
+.col_datetime_data{
+        padding-bottom: 15px;
+       width:100% !important;
+       color: #146c78;
+         padding-left: 20px !important;
+}
+/*.col_datetime_data_test{
+      padding-left: 20px !important;
+      padding-bottom: 15px;
+    width: 100% !important;
+    color: #146c78;
+    padding-right: 0px !important;
+}*/
+.col_datetime_img{
+    padding: 0;
+    margin: 0;
+}
+.col_date{
+        padding-right: 0;
+    padding-left: 17px !important;
+}
+
+select.selectpicker{
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+
+}
+
+select::-ms-expand {    display: none; }
+select{
+    -webkit-appearance: none;
+    appearance: none;
+}
+select.selectpicker {
+    background-image: linear-gradient(45deg, transparent 50%, #146c78 50%), linear-gradient(135deg, #146c78 50%, transparent 50%), linear-gradient(to right, #146c78, #146c78);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 2.7em) 0.5em;
+    background-size: 5px 5px, 5px 6px, 1.8px 1.5em;
+    background-repeat: no-repeat;
+}
+
+
+/*------------------------------------------------New Jobs----------------------------------------*/
+.main_form{
+        padding-bottom: 20px;
+}
+
+.new_job_row{
+    background-color: #fff;
+    padding-top: 10px;
+    width: 100%;
+    font-family: Muli;
+        box-shadow: 3px 5px 42px #888888;
+}
+.box_outline{
+        border-radius: 0px !important;
+    /* -webkit-appearance: none; */
+    border: 1px solid #146c78 !important;
+        padding-top: 10px !important;
+}
+
+.job_inputs_div{
+        padding-top: 10px;
+}
+
+.new_jobs_titles{
+        color: #146c78;
+    font-size: 16px;
+}
+
+.half_column{
+        padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.helptext{
+    color: #b0b0b0;
+}
+
+.blocks{
+        padding-top: 10px;
+            height: 100px;
+}
+.job_textarea{
+    resize:none
+}
+.video_profile{
+    padding: 0;
+    width: 27% !important;
+        padding-top: 15px;
+}
+
+.radio_video{
+    padding-right: 10px;
+}
+
+.video_option{
+        padding-left: 10px;
+}
+.submit_btn_div{
+        width: 91%;
+    text-align: right;
+    padding-top: 28px;
+}
+
+.submit_btn{
+        height: 36px;
+    width: 117px;
+}
+/*------------------------------------------------New Jobs End----------------------------------------*/
+
+/*----------------------------------------------Question Bank----------------------------------------*/
+.question_bank_heading{
+        margin: 0px;
+    /* padding: 0px; */
+    text-align: center;
+    font-size: 22px;
+    vertical-align: middle;
+    padding-top: 0;
+    color: #146c78;
+        font-family: Muli;
+    font-weight: 400;
+    padding-left: 0px;
+}
+
+.question_bank_heading_div{
+        text-align: center;
+            border-right: 2px solid #146c78;
+}
+
+.create_question_bank{
+        margin: 0px;
+    /* padding: 0px; */
+    text-align: center;
+    font-size: 22px;
+    vertical-align: middle;
+    padding-top: 0;
+    color: #146c78;
+    font-family: Muli;
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.create_question_div{
+    text-align: center;
+    border-right: 2px solid #146c78 !important;
+}
+
+/*----------------------------------------------Question Bank Ends----------------------------------*/
+
+/*-----------------------------------------------Job Description--------------------------------------*/
+.job_description_lang_div{
+    padding: 0px !important;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.job_description_lang{
+    background: #146C67;
+    color: #fff;
+    padding: 5px 13px 5px 13px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Muli;
+    margin-right: 15px;
+    width: auto;
+    line-height: 45px;
+}
+
+.job_description_col{
+    background: #fff;
+    box-shadow:  0px 2px 18px #888888;
+    padding: 20px;
+    color: #146C67;
+    font-family: Muli;
+    color: #269089;
+}
+.job_title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Muli;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.description_of_job{
+        font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+}
+.job_experience{
+        padding-bottom: 12px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+.job_salary{
+        font-size: 16px;
+        font-weight: 600;
+    font-weight: 600;
+}
+.pieChart_filters{
+    text-align: center;
+}
+.stat{
+        padding-top: 30px;
+}
+.stat_list{
+        font-size: 18px;
+    font-weight: 100;
+    line-height: 40px;
+}
+
+.candidates_applied{
+        padding: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Muli;
+    font-weight: 600;
+    color: #417786;
+}
+.list_applied{
+        background-color: #fff;
+    font-family: muli;
+    /*padding-top: 17px;*/
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+    padding-left: 0;
+    height: auto;
+    min-height: 160px;
+}
+.col-md-9.left-side {
+    border-right: 2px solid #ddd;
+    padding-left: 0;
+    height: auto;
+    min-height: 100px;
+}
+.right_side_applied{
+    top: 27% !important;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    padding-top: 6% !important;
+}
+.cv_row{
+        padding-bottom: 10px;
+}
+/*------------------------------------------------job description ends------------------------------------*/
+
+
+
+
+
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+input.form-control.input-value.search-value {
+    font-size: 13px !important;
+        width: 70%;
+}
+.navbar-header {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+button.btn.btn-default.filter-btn {
+    width: 30% !important;
+    font-size: 14px;
+}
+.tag.label.label-filter {
+    font-size: 12px !important;
+    padding-top: 10px !important;
+    padding-bottom: 5px !important;
+}
+.col-md-12.list-title {
+    padding: 0;
+    /* font-size: 14px; */
+}
+a.navbar-brand.login-logo {
+    width: 100%;
+}
+.header-logo{
+        margin: 0 auto;
+}
+.login-form.sign-up {
+    width: 92%;
+    padding: 20px;
+        padding-bottom: 5px;
+}
+p.form-logo img {
+    width: 50%;
+    padding: 0;
+}
+p.form-logo {
+    padding: 6px;
+    display: none;
+}
+.col-md-12.base {
+    height: 46px;
+}
+a.navbar-brand.login-logo {
+    padding-top: 15px;
+}
+img.header-logo {
+    width: 30%;
+}
+.form-actions {
+    padding: 0;
+}
+nav.navbar.navbar-inverse.menu-bar.ng-scope {
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+li.menu-block {
+    width: 19.33%;
+    display: inline-block;
+    float: left;
+    /* text-align: center; */
+    margin-left: 10px;
+    margin-right: 10px;
+        padding-right: 0;
+}
+li .menu-icon img {
+    height: 35px;
+}
+img.menu-img {
+    height: 35px;
+    width: 35px;
+}
+a.menu-title {
+        font-size: 10px;
+}
+.dropdown-menu.user-profile.user-profile {
+    width: 50% !important;
+    /* text-align: right !important; */
+    float: right !important;
+    border: 1px solid !important;
+    margin-right: 27px;
+}
+.navbar-inverse .navbar-toggle {
+    background: #146c78 !important;
+}
+img.header-logo {
+    width: 35%;
+}
+.col-md-12.search-filter {
+    margin-top: 13px;
+}
+.col-md-12.search-filter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col-md-12.search-filter .col-md-3 {
+    margin-bottom: 10px;
+}
+.select-property {
+    padding: 0 !important;
+    /* margin: 0 !important; */
+    width: 100% !important;
+    margin: 0 auto;
+}
+.col-md-12.search-filter .col-md-3 .form-group {
+    border: 0 !important;
+}
+a.navbar-brand.main-login-logo {
+    padding-top: 17px;
+    text-align: left;
+}
+p.dropdown-item.company-profile {
+    padding: 2px;
+    font-size: 12px;
+}
+p.dropdown-item.company-name {
+    padding: 0px;
+    font-size: 12px;
+}
+span.all-copmany.company-all {
+    font-size: 10px;
+    display: block;
+}
+p.dropdown-item.logout {
+    padding-top: 3px;
+    font-size: 12px;
+}
+.dropdown-menu.user-profile.user-profile {
+    padding: 10px;
+}
+p.user-details {
+    border: none;
+}
+.navbar-inverse .navbar-toggle:hover {
+    background: #146c78 !important;
+}
+
+li.user {
+    /* padding: 0; */
+    clear: both;
+    text-align: right;
+    padding-right: 15px;
+    display: none !important;
+}
+}
+@media only screen and (min-device-width : 480px)
+and (max-device-width : 767px) {
+.col-md-12.base {
+    height: 60px;
+    /* margin: 0 auto; */
+}
+a.navbar-brand.login-logo {
+    width: 100%;
+}
+img.header-logo {
+    text-align: center;
+    margin: 0 auto;
+}
+a.navbar-brand.login-logo {
+    padding-top: 16px;
+}
+.login-form.sign-up {
+    padding: 25px;
+    padding-top: 18px;
+    width: 90%;
+}
+p.form-logo {
+    padding: 0;
+}
+p.form-logo img {
+    width: 23%;
+    display: none;
+}
+    }
+
+a.icon-actions-cell {
+    padding-left: 30px;
+}
+li.tab-design {
+    width: 33%;
+    border-radius: 0 !important;
+    background: white;
+    border: 1px solid #146c78;
+    margin-left: 0 !important;
+}
+.tab-name{
+  border-radius: 0 !important;
+  padding: 20px !important;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background: #146c78 !important;
+}
+
+.col_course{
+        margin: 0px;
+    /* padding: 0px; */
+    text-align: center;
+    font-size: 22px;
+    vertical-align: middle;
+    padding-top: 15px;
+    color: #146c78;
+    font-weight: 400;
+}
+
+.col_desc{
+    color: #146c78;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 22px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+            border-right: 2px solid #ddd;
+}
+
+.col_datetime{
+        align-items: center;
+    text-align: center;
+}
+
+.col_datetime_date{
+        float: left;
+    text-align: left;
+        left: 23px;
+
+}
+
+.col_view{
+        align-items: center;
+    text-align: center;
+}
+
+.btn_view{
+        background: #146c78;
+    color: #fffefe;
+    font-weight: 600;
+    width: 125px;
+    height: 42px;
+}
+/* STAR RATING*/
+.fa-star-o {
+    color: #FF7700;
+}
+.fa-star {
+    color: #FFDD00;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FF7700;
+}

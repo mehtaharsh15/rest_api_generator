@@ -1,0 +1,48 @@
+<nav class="navbar navbar-inverse menu-bar" ng-controller="headerController">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+       <a class="navbar-brand main-login-logo" href="#"><img src="static/images/myloci.png" class="header-logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav  navbar-right">
+        <li ng-class="{ active: isActive('/dashboard')}" class="menu-block"><span class="menu-icon">
+            <img src="images/dashboard-inactive.png" class=" active"></span>
+            <a href="#dashboard" class="menu-title">Dashboard</a></li>
+        <li ng-class="{ active: isActive('/listCandidate')}" class="menu-block"><span class="menu-icon">
+            <img src="images/candidates.png" class=""></span>
+            <a href="#listCandidate" class="menu-title">Candidates</a></li>
+        <li ng-class="{ active: isActive('/questionBank')}" class="menu-block qb"><span class="menu-icon">
+            <img src="images/question-bank-inactive.png"></span>
+            <a href="#questionBank" class="menu-title">Question bank</a></li>
+         <li  class="user">
+            <p class="user-details">
+        <span class="username" ng-bind = 'userName'></span>
+      </p>
+         </li>
+         <li>
+              <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+     <img src="http://www.personalizedmedicinesummit.com/pms/includes/themes/devobjective/images/placeholders/testimonial-placeholder.jpg" class="menu-img"><span class="dropdown">
+    <span class="caret"></span>
+</span>
+  </button>
+  <div class="dropdown-menu user-profile user-profile" aria-labelledby="dropdownMenu2">
+    <p class="dropdown-item company-profile" type="button">Company Profile</p>
+    <p class="dropdown-item company-name" type="button">Company Name 
+<span class="all-copmany company-all">View all Companies</span> </p>
+      <p class="dropdown-item company-profile" type="button"><a href="#newJob">New Jobs</a></p>
+    <p class="dropdown-item logout" type="button" ng-click="logout()">Log Out</p>
+  </div>
+</div>
+         </li>
+      </ul>
+      
+     
+    </div>
+  </div>
+</nav>
